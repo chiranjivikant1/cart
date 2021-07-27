@@ -1,0 +1,23 @@
+.card-body {
+  text-align: center;
+}
+
+.border1 {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.card-img-top {
+  margin: 0;
+  border-radius: 50px;
+}
+
+.Col {
+  height: 100px;
+}
+
+.cart {
+  text-align: center;
+}
