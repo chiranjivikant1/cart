@@ -15,13 +15,13 @@ function Basket(props) {
 
   const counter = () => {
     setCount((count) => count + 1);
-    props.title(title);
+    
     props.cart(count);
   };
 
   const decounter = () => {
     setCount((count) => count - 1);
-    props.title(title);
+    
     props.cart(count);
   };
 
