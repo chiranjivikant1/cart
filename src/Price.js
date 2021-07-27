@@ -9,7 +9,7 @@ function Price(props) {
           alt="basket icon"
         ></img>
         <h1>
-          {props.title} value is {props.value}{" "}
+           value is {props.value}{" "}
         </h1>
       </div>
     </>
