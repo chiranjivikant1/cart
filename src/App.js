@@ -7,7 +7,7 @@ import { useState } from "react";
 
 function App() {
   const [value, setValue] = useState(0);
-  const [title, setTitle] = useState();
+  
   return (
     <>
       <Container>
@@ -22,13 +22,13 @@ function App() {
                 src={src}
                 currency={currency}
                 cart={(old) => setValue(old)}
-                title={(word) => setTitle(word)}
+                
               />
             );
           })}
         </Row>
       </Container>
-      <Price value={value} title={title} />
+      <Price value={value}  />
     </>
   );
 }
